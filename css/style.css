@@ -771,11 +771,12 @@ input::placeholder {
     fill: transparent;
 }
 
-.visually-hidden:checked+.privacy-label {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
+.visually-hidden:checked+.privacy-label {}
 
+input:checked+label>span {
+    background-color: #404bbf;
+    fill: #F4F4FD;
+    border: none;
 }
 
 .privacy-link {

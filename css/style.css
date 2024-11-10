@@ -629,7 +629,7 @@ input::placeholder {
     background-color: rgba(46, 47, 66, 0.4);
 
     /*v klidnem stavu*/
-    opacity: 0;
+    opacity: 1;
     /*pruhledna*/
     pointer-events: none;
     visibility: hidden;
@@ -662,7 +662,7 @@ input::placeholder {
 
 .backdrop.is-open {
     /*v aktivnem stavu*/
-    opacity: 1;
+    opacity: 0;
     /*viditelna*/
     pointer-events: auto;
     visibility: visible;

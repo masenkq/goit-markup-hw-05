@@ -771,9 +771,8 @@ input::placeholder {
     fill: transparent;
 }
 
-.visually-hidden:checked+.privacy-label {}
 
-input:checked+label>span {
+.visually-hidden:checked+.privacy-label>span {
     background-color: #404bbf;
     fill: #F4F4FD;
     border: none;

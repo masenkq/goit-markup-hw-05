@@ -471,6 +471,70 @@ ol {
     padding: 100px 0;
 }
 
+.form-text {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+
+}
+
+.footer-form {
+    display: flex;
+
+}
+
+.form-label {
+    gap: 24px;
+}
+
+.form-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    /**/
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+.form-button {
+    border-radius: 4px;
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    padding: 8px 24px;
+
+}
+
+.form-icon {
+    margin-left: 16px;
+
+}
+
 .footer-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;

@@ -19,6 +19,7 @@ a {
 }
 
 .container {
+
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -27,6 +28,7 @@ a {
     /* що встановлює вирівнювання елементів у 
     поперечному напрямку вздовж головної осі
      контейнера відносно базової лінії тексту першого рядка кожного елемента*/
+
 }
 
 .visually-hidden {
@@ -59,6 +61,8 @@ ol {
     display: flex;
     align-items: center;
     padding: 24px 0;
+    height: 72px;
+    margin-right: auto;
 }
 
 .logo {
@@ -130,6 +134,7 @@ ol {
 .contacts-list {
     display: flex;
     gap: 40px;
+
 }
 
 .contacts-items {}
@@ -144,22 +149,6 @@ ol {
 }
 
 /*section1*/
-.solutions {
-    background-color: #2e2f42;
-    /*для реалізації фонового зображення з затемненням (багатошаровий фон з градієнтом)*/
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
-    max-width: 1440px;
-    /*для визначення ширини секції*/
-    height: 600px;
-    background-repeat: no-repeat;
-    /*для уникнення повторення фонового зображення відносно його власної ширини та висоти*/
-    background-position: center;
-    background-size: cover;
-    /*для позиціонування зображення на всю площу фону елемента*/
-    padding: 188px 0;
-    /*можна використовувати аналог padding: 188px 0 188px або padding-top: 188px; та padding-bottom: 188px;*/
-}
-
 .strategy-icon {
     display: flex;
     /*для подальшої можливості зміни розташування елемента*/
@@ -179,6 +168,37 @@ ol {
     /*для визначення відступу між блоком та заголовком*/
 }
 
+.solutions {
+    background-color: #2e2f42;
+    /*для реалізації фонового зображення з затемненням (багатошаровий фон з градієнтом)*/
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
+    max-width: 1440px;
+    /*для визначення ширини секції*/
+    height: 600px;
+    background-repeat: no-repeat;
+    /*для уникнення повторення фонового зображення відносно його власної ширини та висоти*/
+    background-position: center;
+    background-size: cover;
+    /*для позиціонування зображення на всю площу фону елемента*/
+    padding: 188px 0;
+    /*можна використовувати аналог padding: 188px 0 188px або padding-top: 188px; та padding-bottom: 188px;*/
+
+
+}
+
+.container-solutions {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    /* align-content: flex-end; */
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    gap: 48px;
+    /*mezdu elementami kteri maji flexbox davame gap to je ta mezerka*/
+}
+
+
 .solutions-title {
     font-size: 56px;
     line-height: 1.07;
@@ -186,6 +206,13 @@ ol {
     text-align: center;
     color: #fff;
     max-width: 496px;
+    /* Centering */
+
+    justify-content: center;
+    align-items: center;
+    /* Nastavte podle požadované výšky kontejneru */
+    margin: auto;
+
 }
 
 .solutions-button {
@@ -205,7 +232,6 @@ ol {
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     /*для плавної зміни кольору фону елемента*/
-    ;
 }
 
 .solutions-button:hover,
@@ -265,13 +291,11 @@ ol {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    background-color: #ffffff;
-    /*mozna spatne*/
     margin-bottom: 72px;
 }
 
 .team-list {
-    background-color: #ffffff;
+
     display: flex;
     gap: 24px;
     padding-left: 0;
@@ -341,7 +365,7 @@ ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    width: calc((100% - 72px) / 4);
+
     text-align: center;
     margin-bottom: 8px
 }
@@ -374,7 +398,6 @@ ol {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    width: calc((100% - 48px) / 3);
 
 }
 
@@ -577,12 +600,14 @@ input::placeholder {
 .footer-social-list {
     display: flex;
     gap: 16px;
+    margin-right: 80px;
 
 }
 
 .footer-social-items {
     width: 40px;
     height: 40px;
+    gap: 80px;
 }
 
 .footer-social-link {

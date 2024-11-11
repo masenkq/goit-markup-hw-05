@@ -484,12 +484,11 @@ ol {
 
 .footer-form {
     display: flex;
-
-}
-
-.form-label {
     gap: 24px;
+
 }
+
+.form-label {}
 
 .form-input {
     border: 1px solid #fff;

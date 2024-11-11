@@ -783,6 +783,15 @@ input::placeholder {
     text-decoration: underline;
 }
 
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* Full height of the modal window */
+}
+
 .button-send {
     display: block;
     min-width: 169px;
@@ -799,7 +808,6 @@ input::placeholder {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
     padding: 16px 32px;
-
 }
 
 .form-div-label {
